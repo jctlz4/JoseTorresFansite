@@ -1,4 +1,165 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+body {
+  background-color: #343a40;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("https://cdn.wallpapersafari.com/88/60/skSFlx.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  text-align: center;
+  color: #ba181b;
+  font-family: Impact;
+  }
+
+
+.header h1 {
+  font-size: 85px;
+}
+
+.header p{
+  font-size:40px;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ba181b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Impact;
+}
+
+
+.topnav a:hover {
+  background-color:#ba181b;
+  color: white;
+}
+
+
+.topnav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+ .topnav .icon { 
+  display: none; 
+} 
+
+
+.sectiontitles {
+  color:white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: large;
+  font-size:2rem;
+}
+
+.soccerimg{
+  height: 75%;
+  width: 600px;
+}
+
+.bkbimg{
+  height: 400px;
+  width: 600px;
+}
+
+.nflimg{
+  height: 78%;
+  width: 600px;
+}
+
+.mlbimg{
+  height: 400px;
+  width: 600px;
+}
+
+.list{
+  font-size:2rem;
+  text-align: left;
+  font-family: sans-serif;
+  color: white;
+}
+
+li a:visited {
+  color:white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#soccerbox{
+  height: 75%;
+  width: 600px;
+/*   border: 1px solid white; */
+}
+
+#soccerlistbox{
+  height: 100%;
+  width: 100%;
+/*   border: 1px solid white; */
+}
+
+#bkbbox{
+  height: 75%;
+  width: 600px;
+/*   border: 1px solid white; */
+}
+
+#bkblistbox{
+  height: 100%;
+  width: 100%;
+/*   border: 1px solid white; */
+}
+
+#nflbox{
+  height: 75%;
+  width: 600px;
+/*   border: 1px solid white; */
+}
+
+#nfllistbox{
+  height: 100%;
+  width: 100%;
+/*   border: 1px solid white; */
+}
+
+#mlbbox{
+  height: 75%;
+  width: 600px;
+/*   border: 1px solid white; */
+}
+
+#mlblistbox{
+  height: 100%;
+  width: 100%;
+  /*border: 1px solid white;*/
+}
+
+#container1{
+height: 100%;
+width: 100%; 
+/* border: 5px solid red; */
+display: flex;
+justify-content: space-around;
+}
+
+#footercontainer{
+  text-align:center;
+  color:white;
+}
+
+footer a {
+  color:white;
 }
